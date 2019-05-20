@@ -70,4 +70,9 @@ public class ClericTest {
         cleric.setTool(potion2);
         assertEquals(potion2, cleric.getTool());
     }
+
+    @Test
+    public void canEnterRoom() {
+
+    }
 }

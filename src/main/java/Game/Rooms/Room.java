@@ -3,8 +3,8 @@ package Game.Rooms;
 public class Room {
 
     private String type;
-    private Treasure treasure;
-    private Enemy enemy;
+    public Treasure treasure;
+    public Enemy enemy;
 
     public Room(String type, Treasure treasure) {
         this.type = type;

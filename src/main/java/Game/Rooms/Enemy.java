@@ -24,4 +24,28 @@ public class Enemy implements IAttack, IDefend {
     public void defend(int damage) {
         health -= damage;
     }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
 }

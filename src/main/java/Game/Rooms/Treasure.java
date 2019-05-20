@@ -8,4 +8,8 @@ public class Treasure {
         this.treasureType = treasureType;
     }
 
+    public int getValue(){
+        return treasureType.getValue();
+    }
+
 }
